@@ -1,0 +1,149 @@
+
+#project {
+	width: 1024px;
+	height: 100%;
+	border-top:  2px solid #005B70;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 30px 0 30px 0;
+
+}
+
+h4 {
+	font-size: 19px;
+	padding: 15px 20px 10px 20px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+h4 a {
+	color: #005B70;
+	font-weight: 800;
+}
+
+h4 :hover {
+	opacity: 0.7;
+}
+
+.clock {
+	font-size: 8px;
+	font-weight: 800;
+	float: right;
+	padding: 5px;
+}
+
+.details {
+	float: left;
+	width: 300px;
+	height: 100%;
+	padding-left: 20px;
+}
+
+.details li {
+	font-size: 11px;
+	width: 300px;
+	height: 26px;
+
+}
+
+.details li span {
+	float: left;
+	width: 60px;
+	height: 18px;
+	border-radius: 4px;
+	color: white;
+	background-color: #111;
+	text-align: center;
+	padding-top: 2px;
+}
+
+.td {
+	font-size: 12px;
+	float: right;
+	width: 230px;
+	height: 18px;
+	padding-top: 2px;
+	overflow: hidden;
+}
+
+.text {
+	float: right;
+	width: 640px;
+	height: 110px;
+	font-size: 12px;
+	background-color: #ddd;
+	border-radius: 4px;
+	margin-right: 10px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.more_read {
+	height: 100%;
+	width: 300px;
+	float: right;	
+	margin: 20px 20px 10px 10px;
+}
+
+
+.more_read a {
+	font-size: 15px;
+	color: white;
+	padding: 5px 55px 5px 55px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	border-radius: 4px;
+	background-color: #FF8C00;
+	box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
+}
+
+.more_read :hover {
+	box-shadow: 0 0 4px 1.5px rgba(0,0,0,0.5);
+	-webkit-transform: scale(0.99);
+	transform: scale(0.99);
+	opacity: 0.9;
+}
+
+.conversion {
+	height: 100%;
+	width: 300px;
+	float: right;
+	margin: 20px 20px 10px 10px;
+
+}
+
+.conversion a {
+	font-size: 15px;
+	color: white;
+	padding: 5px 55px 5px 55px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	border-radius: 4px;
+	background-color: #09A1F9;
+	box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
+}
+
+.conversion :hover {
+	box-shadow: 0 0 4px 1.5px rgba(0,0,0,0.5);
+	-webkit-transform: scale(0.99);
+	transform: scale(0.99);
+	opacity: 0.9;
+}
+
+
+.paginate {
+	border-top:  2px solid #005B70;
+	text-align: center;
+	padding: 30px;
+}
+
